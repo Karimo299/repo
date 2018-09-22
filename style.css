@@ -14,8 +14,9 @@ h1 {
   font-size: 50px;
 }
 
-button {
+a {
   position: absolute;
+  line-height: 45px;
   margin-top: -25px;
   margin-left: -100px;
   top : 50%;
@@ -24,9 +25,10 @@ button {
   background-color: white;
   height: 50px;
   width: 200px;
-  font-size: 25px;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-button:hover {
+a:hover {
   background-color: rgb(15, 104, 187);
 }
