@@ -1,0 +1,12 @@
+Package: com.karimo299.dontkillmymusic
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Karimo299 <karimo299@yahoo.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./deb/com.karimo299.dontkillmymusic_1.0.0_iphoneos-arm.deb
+Size: 7424
+MD5sum: 615c13255e0947605de7bb56cdd7022f
+Description: Prevents you from accidentally killing now playing music
+Name: DontKillMyMusic
+Author: Karimo299 <karimo299@yahoo.com)>
