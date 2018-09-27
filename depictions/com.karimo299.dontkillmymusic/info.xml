@@ -1,0 +1,26 @@
+<package>
+	<id>com.karimo299.dontkillmymusic</id>
+	<name>DontKillMyMusic</name>
+	<version>1.0.2-1</version>
+	<compatibility>
+		<firmware>
+			<maxiOS></maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>A tweak that prevents you from accidentally killing the now playing app.</shortDescription>
+	<changelog>
+		<version>1.0.2-1</version>
+		<change>Added toggle for EasySwitcherX fix</change>
+	</changes>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>

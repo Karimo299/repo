@@ -1,0 +1,21 @@
+<changelog>
+	<changes>
+		<version>1.0.2-1</version>
+		<change>Added toggle for EasySwitcherX fix</change>
+	</changes>
+	<changes>
+		<version>1.0.2</version>
+		<change>Support for EasySwitcherX</change>
+		<change>Code Cleanup</change>
+	</changes>
+	<changes>
+		<version>1.0.1</version>
+		<change>Enable bug fix</change>
+		<change>Support for SBCard by julioverne</change>
+		<change>Added Icon by @hasteDesigns</change>
+	</changes>
+	<changes>
+		<version>1.0.0</version>
+		<change>Initial Release</change>
+	</changes>
+</changelog>
