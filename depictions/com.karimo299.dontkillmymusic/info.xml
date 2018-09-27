@@ -5,22 +5,19 @@
 	<compatibility>
 		<firmware>
 			<maxiOS>11.4b3</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
 		</firmware>
 	</compatibility>
-	<dependencies>
-		<package>mobilesubstrate</package>
-	</dependencies>
-	<shortDescription>A tweak that prevents you from accidentally killing the now playing app.</shortDescription>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>a tweak that prevents you from killing the now playing music app</description>
+	</descriptionlist>
+	<screenshots></screenshots>
 	<changelog>
-		<version>1.0.2-1</version>
-		<change>Added toggle for EasySwitcherX fix</change>
-	</changes>
+		<change>Added switch for EasySwitcherX fix</change>
 	</changelog>
-	<links>
-		<link>
-			<name>/r/jailbreak</name>
-			<url>https://www.reddit.com/r/jailbreak</url>
-			<iconclass>fa fa-reddit</iconclass>
-		</link>
-	</links>
+	<links></links>
 </package>
