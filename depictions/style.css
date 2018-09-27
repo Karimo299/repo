@@ -1,6 +1,3 @@
-html {
-  text-align: center;
-}
 .disable-hover {
     pointer-events: none;
 }
@@ -10,7 +7,7 @@ html {
     padding: 17px 15px;
     display: block;
     color: #337ab7 !important;
-    /* text-align: left; */
+    text-align: left;
 }
 
 .link-item:hover {
@@ -30,5 +27,4 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     font-size: 16px;
     margin-left: 5px;
     margin-right: 10px;
-    text-align: left;
 }
