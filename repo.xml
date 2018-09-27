@@ -5,10 +5,10 @@
 			<url>https://twitter.com/reposi3</url>
 			<iconclass>fa fa-twitter</iconclass>
 		</link>
-		<!-- <link>
-			<name>I want this depiction template</name>
-			<url>https://github.com/supermamon/Reposi3/</url>
-			<iconclass>fa fa-thumbs-up</iconclass>
-		</link> -->
+		<link>
+			<name>Github</name>
+			<url>https://github.com/supermamon/Karimo299/</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>
 	</footerlinks>
 </repo>
