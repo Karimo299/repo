@@ -15,7 +15,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Fixed typo in the prefrences section (Found by u/k1z0)</change>
+	      <change>Fixed not being able to tap to enter an app when applock is disabled</change>
 	</changelog>
 	<links></links>
 </package>
