@@ -1,14 +1,12 @@
 <package>
 	<id>com.karimo299.dontkillmymusic</id>
 	<name>DontKillMyMusic</name>
-	<version>1.0.2-1</version>
+	<version>1.0.3</version>
 	<compatibility>
 		<firmware>
+			<miniOS>11.0</miniOS>
 			<maxiOS>11.4b3</maxiOS>
-			<otherVersions>unsupported</otherVersions>
-			<!--
-			for otherVersions, you can put either unsupported or unconfirmed
-			-->
+			<otherVersions>unconfirmed</otherVersions>
 		</firmware>
 	</compatibility>
 	<dependencies></dependencies>

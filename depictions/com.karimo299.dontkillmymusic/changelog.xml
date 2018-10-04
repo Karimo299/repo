@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1.0.3</version>
+		<change>Added the ability to lock other apps</change>
+	</changes>
+	<changes>
 		<version>1.0.2-1</version>
 		<change>Added toggle for EasySwitcherX fix</change>
 	</changes>
