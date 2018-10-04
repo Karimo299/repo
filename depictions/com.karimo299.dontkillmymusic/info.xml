@@ -15,7 +15,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Added switch for EasySwitcherX fix</change>
+		<change>Added the ability to lock other apps</change>
 	</changelog>
 	<links></links>
 </package>
