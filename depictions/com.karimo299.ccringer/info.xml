@@ -1,0 +1,21 @@
+<package>
+	<id>com.karimo299.ccringer</id>
+	<name>DontKillMyMusic</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<maxiOS>11.4b3</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Lets you change the ringer volume by tapping on the volume slider</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+	      <change>Initial Release</change>
+	</changelog>
+	<links></links>
+</package>
