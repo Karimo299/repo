@@ -1,5 +1,11 @@
 <changelog>
   <changes>
+      <version>1.0.4</version>
+      <change>Added Feature where you can select default apps to stay locked</change>
+      <change>No respring needed to change settings (Kinda)</change>
+      <change>Added icons in the settings menu for social media and github</change>
+  </changes>
+  <changes>
       <version>1.0.3-2</version>
       <change>Fixed not being able to tap to enter an app when applock is disabled</change>
   </changes>
