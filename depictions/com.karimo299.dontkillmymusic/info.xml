@@ -1,7 +1,7 @@
 <package>
 	<id>com.karimo299.dontkillmymusic</id>
 	<name>DontKillMyMusic</name>
-	<version>1.0.4-1</version>
+	<version>1.0.4-2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -15,9 +15,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-				<change>Added Feature where you can select default apps to stay locked</change>
-				<change>No respring needed to change settings (Kinda)</change>
-				<change>Added icons in the settings menu for social media and github</change>
+		<change>Fixed issue where the tweak wont work because of Applist</change>
 	</changelog>
 	<links></links>
 </package>
