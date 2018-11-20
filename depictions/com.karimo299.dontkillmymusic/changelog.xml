@@ -3,6 +3,7 @@
     <version>1.0.4-2</version>
     <change>Fixed issue where the tweak wont work because of Applist</change>
   </changes>
+  <changes>
       <version>1.0.4-1</version>
       <change>Added feature where you can select default apps to stay locked</change>
       <change>No respring needed to change settings (Kinda)</change>
