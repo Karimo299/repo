@@ -31,6 +31,10 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     background-color: #f5f5f5;
 }
 
+body > h5 {
+  background-color: #0ebea9;
+}
+
 .fa {
     font-size: 16px;
     margin-left: 5px;
