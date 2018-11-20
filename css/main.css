@@ -2,12 +2,16 @@ html {
   text-align: center;
 }
 .text-primary {
-  color: #68f4e3;
+  color: #0ebea9;
 }
 .btn {
-  color: #68f4e3;
+  color: #0ebea9;
 }
 
 .btn:hover {
   color: #0ebea9;
+}
+
+.panel-heading {
+  background-color: #0ebea9;
 }
