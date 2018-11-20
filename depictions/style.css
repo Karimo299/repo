@@ -11,7 +11,8 @@ html {
 }
 
 .alert-success {
-  background-color: #0ebea9;
+  background-color: #68f4e3;
+  color : white;
 }
 
 .link-item {
@@ -32,6 +33,10 @@ html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
 
 html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     background-color: #f5f5f5;
+}
+
+.panel-heading {
+  background-color: #0ebea9;
 }
 
 .fa {
