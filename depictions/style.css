@@ -1,3 +1,7 @@
+html {
+  text-align: center;
+}
+
 .disable-hover {
     pointer-events: none;
 }
@@ -6,7 +10,7 @@
     list-style-type: none;
     padding: 17px 15px;
     display: block;
-    color: #337ab7 !important;
+    color: #0ebea9 !important;
     text-align: left;
 }
 

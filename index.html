@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <link rel="shortcut icon" href="CydiaIcon.png" />
 
@@ -43,6 +44,60 @@
 		Lets you change the ringer volume by tapping on the volume slider in the controlCenter<br /><br />
 		<a class="btn btn-xs btn-default" href="./depictions/?p=com.karimo299.ccringer">More info</a>
 	  </div>
+	</div>
+</div>
+<script type="text/javascript">
+   function setAnchorTargets() {
+     // if on Cydia, set link targets to _blank
+     if (navigator.userAgent.search(/Cydia/) != -1) {
+       $("a").each(function() {
+         $(this).attr("target","_blank");
+       });
+     }
+   }
+
+    var repoContents =  {
+        "#repoFooterLinks" :
+            {"type":"custom"
+                ,"source":"repo>footerlinks>link"
+                ,"render":function(element,source) {
+                    $.each(source, function(index,data) {
+                        var a = $("<a class='link-item list-group-item'>");
+                        a.attr("href",$(data).find('url').text());
+                        if ($(data).find('iconclass')) {
+                            var i =  $("<span>")
+                            i.attr("class",$(data).find('iconclass').text());
+                            console.log(i);
+                            $(a).append(i);
+                        }
+                        $(a).append($(data).find('name').text());
+                        $(element).append(a);
+                    }); //each
+                } //render
+            }
+    }
+    $( document ).ready(function() {
+        $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
+            success : function(xml){
+				      data_loader_engine(repoContents,xml);
+              setAnchorTargets();
+			      },
+            error: function() {
+              $("#contactInfo").hide();
+              setAnchorTargets();
+            }
+        }); //ajax
+
+
+    }); // ready
+
+</script>
+
+<div id="contactInfo">
+	<div class="container">
+		<h5>CONTACT</h5>
+		<ul class="list-group" id="repoFooterLinks">
+		</ul>
 	</div>
 </div>
 </body>
