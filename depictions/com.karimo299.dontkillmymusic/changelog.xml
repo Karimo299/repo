@@ -4,6 +4,7 @@
       <change>Can now unlock the now playing app</change>
       <change>Added blacklist applist</change>
       <change>Switched to libsparkapplist</change>
+      <change>Better prefs</change>
       <change>A couple of bug fixes</change>
   </changes>
   <changes>
