@@ -15,16 +15,8 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-<<<<<<< HEAD
     <change>Fixed safari crashing</change>
     <change>Fixed not being able to lock/unlock apps consistently</change>
-=======
-      <change>Can now unlock the now playing app</change>
-      <change>Added blacklist applist</change>
-      <change>Switched to libsparkapplist</change>
-      <change>Better prefs</change>
-      <change>A couple of bug fixes</change>
->>>>>>> ef54a66f2e79aba26aecfb8eaf02ee06b74df83d
 	</changelog>
 	<links></links>
 </package>

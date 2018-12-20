@@ -9,11 +9,7 @@
       <change>Can now unlock the now playing app</change>
       <change>Added blacklist applist</change>
       <change>Switched to libsparkapplist</change>
-<<<<<<< HEAD
 	  <change>Better Preferences</change>
-=======
-      <change>Better prefs</change>
->>>>>>> ef54a66f2e79aba26aecfb8eaf02ee06b74df83d
       <change>A couple of bug fixes</change>
   </changes>
   <changes>
