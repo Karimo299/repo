@@ -1,9 +1,15 @@
 <changelog>
 	<changes>
+		<version>1.0.2</version>
+		<change>Fixed issue with expanded only option</change>
+	</changes>
+	<changes>
 		<version>1.0.1</version>
 		<change>Added option to switch modes only when expanded</change>
 		<change>Better Preferences</change>
 		<change>Ringer Slider now wont go under 6% because ios doesn't allow it</change>
+	</changes>
+	<changes>
 		<version>1.0.0</version>
 		<change>Initial Release</change>
 	</changes>
