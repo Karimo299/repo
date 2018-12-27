@@ -1,35 +1,15 @@
 {
-  "minVersion": "0.1",
-  "headerImage": "https://repo.dynastic.co/api/v0/packages/96349567687065600/versions/96349567905169408/header-image?ee6339c740832e0c7c3c85aa196133aa&size=750",
+  "minVersion": "11.0",
+  "headerImage": "",
   "tabs": [{
     "tabname": "Details",
     "views": [{
-      "title": "iOS Respring animations from any gif you want!",
+      "title": "DontKillMyMusic",
       "useBoldText": true,
       "useBottomMargin": false,
       "class": "DepictionSubheaderView"
     }, {
-      "itemCornerRadius": 6,
-      "itemSize": "{160, 275.41333333333336}",
-      "screenshots": [{
-        "accessibilityText": "Screenshot",
-        "url": "https://repo.dynastic.co/api/v0/packages/96349567687065600/versions/96349567905169408/screenshots/97132458872406016"
-      }, {
-        "accessibilityText": "Screenshot",
-        "url": "https://repo.dynastic.co/api/v0/packages/96349567687065600/versions/96349567905169408/screenshots/97132529504485376"
-      }],
-      "class": "DepictionScreenshotsView"
-    }, {
-      "markdown": "Set any gif you would like as a respring logo. Convert existing springy packs and movies to gifs. Does not require anemone.",
-      "useSpacing": true,
-      "class": "DepictionMarkdownView"
-    }, {
-      "class": "DepictionSeparatorView"
-    }, {
-      "title": "Known Issues",
-      "class": "DepictionHeaderView"
-    }, {
-      "markdown": "* When Converting springy pack or video, phone locks up.\n* Opening preferences may freeze after first installation as gif2ani downloads update. \n* When converting a video or springy pack gif2ani will state saving, then you will need to wait for the confirmation alert.",
+      "markdown": "A tweak that prevents you from killing the now playing music app",
       "useSpacing": true,
       "class": "DepictionMarkdownView"
     }, {
@@ -39,11 +19,11 @@
       "class": "DepictionHeaderView"
     }, {
       "title": "Version",
-      "text": "2.1",
+      "text": "1.1.1",
       "class": "DepictionTableTextView"
     }, {
       "title": "Released",
-      "text": "2018-9-26",
+      "text": "2018-12-19",
       "class": "DepictionTableTextView"
     }, {
       "title": "Price",
@@ -54,30 +34,30 @@
       "class": "DepictionSpacerView"
     }, {
       "title": "Developer",
-      "text": "MidnightChips",
+      "text": "Karimo299",
       "class": "DepictionTableTextView"
     }, {
       "title": "Contact Support",
-      "action": "depiction-https://repo.dynastic.co/sileo-depiction/96349567687065600/support",
+      "action": "depiction-https://karimo299.github.io/repo/sileo/support",
       "class": "DepictionTableButtonView"
     }],
     "class": "DepictionStackView"
   }, {
     "tabname": "Changelog",
     "views": [{
-      "title": "Version 2.1",
+      "title": "Version 1.1.1",
       "useBoldText": true,
       "useBottomMargin": true,
       "class": "DepictionSubheaderView"
     }, {
-      "markdown": "* Added springy pack support\n* Added option to convert videos to gifs\n* New Prefs\n* Set Background color ",
+      "markdown": "* Fixed Safari\n* Fixed not being able to lock/unlock apps consistently",
       "useSpacing": false,
       "class": "DepictionMarkdownView"
     }, {
-      "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2018-9-26</small>",
+      "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2018-12-19</small>",
       "useRawFormat": true,
       "class": "DepictionMarkdownView"
-    }],
+    }], 
     "class": "DepictionStackView"
   }],
   "class": "DepictionTabView"
