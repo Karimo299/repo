@@ -7,6 +7,8 @@
 		<version>1.1.0</version>
 		<change>Fixed Timer not alway working</change>
 		<change>Added the ability to choose apps to automatically enable bluetooth</change>
+		<change>Better CC Support</change>
+		<change> Timer now runs after a respring/change>
 		<change>Added the ability to enable bluetooth when pluged in</change>
 	</changes>
 	<changes>
