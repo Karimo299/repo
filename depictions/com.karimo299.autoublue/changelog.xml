@@ -9,10 +9,10 @@
 		<change>Added the ability to choose apps to automatically enable bluetooth</change>
 		<change>Better CC Support</change>
 		<change>Timer now runs after a respring</change>
-			<change>Added the ability to enable bluetooth when pluged in</change>
-		</changes>
-		<changes>
-			<version>1.0.0</version>
-			<change>Initial Release</change>
-		</changes>
-	</changelog>
+		<change>Added the ability to enable bluetooth when pluged in</change>
+	</changes>
+	<changes>
+		<version>1.0.0</version>
+		<change>Initial Release</change>
+	</changes>
+</changelog>
