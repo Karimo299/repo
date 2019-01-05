@@ -1,9 +1,10 @@
 {
   "minVersion": "11.0",
+	"headerImage": "https://karimo299.github.io/repo/banner/AutoBlue.png?&size=750",
   "tabs": [{
     "tabname": "Details",
     "views": [{
-      "markdown": "Disables Bluetooth after a certain amount of time if there are no devices connected. After enabling the tweak you can set how many minutes after enabling bluetooth, and/or disconnecting a device.Alternatively you have the option to Disable Bluetooth Immediately which disables Bluetooth right after disconnecting a device ",
+      "markdown": "Disables Bluetooth after a certain amount of time if there are no devices connected. After enabling the tweak you can set how many minutes after enabling bluetooth, and/or disconnecting a device.Alternatively you have the option to Disable Bluetooth Immediately which disables Bluetooth right after disconnecting a device",
       "useSpacing": true,
       "class": "DepictionMarkdownView"
     }, {
