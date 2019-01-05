@@ -22,7 +22,7 @@ do
   echo Description: `dpkg-deb -f $file Description` >>Packages
   echo Depiction: https://karimo299.github.io/repo/depictions/?p=`dpkg-deb -f $file package` >>Packages
   echo SileoDepiction: https://karimo299.github.io/repo/sileo/`dpkg-deb -f $file package` >>Packages
-  echo Icon: https://karimo299.github.io/repo/icons/`dpkg-deb -f $file Name` >>Packages
+  echo Icon: https://karimo299.github.io/repo/icons/`dpkg-deb -f $file Name`.png >>Packages
   echo>> Packages
   echo Finished `dpkg-deb -f $file Name` v`dpkg-deb -f $file Version`
 done
