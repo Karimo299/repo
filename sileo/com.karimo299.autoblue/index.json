@@ -1,84 +1,84 @@
 {
-  "minVersion": "11.0",
-  "tabs": [{
-    "tabname": "Details",
-    "views": [{
-      "markdown": "Disables Bluetooth after a certain amount of time if there are no devices connected. After enabling the tweak you can set how many minutes after enabling bluetooth, and/or disconnecting a device.Alternatively you have the option to Disable Bluetooth Immediately which disables Bluetooth right after disconnecting a device ",
-      "useSpacing": true,
-      "class": "DepictionMarkdownView"
-    }, {
-      "class": "DepictionSeparatorView"
-    }, {
-      "title": "Latest Version",
-      "class": "DepictionHeaderView"
-    }, {
-      "title": "Version",
-      "text": "1.1.1",
-      "class": "DepictionTableTextView"
-    }, {
-      "title": "Released",
-      "text": "2019-01-2",
-      "class": "DepictionTableTextView"
-    }, {
-      "title": "Price",
-      "text": "Free",
-      "class": "DepictionTableTextView"
-    }, {
-      "spacing": 8,
-      "class": "DepictionSpacerView"
-    }, {
-      "title": "Developer",
-      "text": "Karimo299",
-      "class": "DepictionTableTextView"
-    }, {
-      "title": "Contact Developer",
-      "action": "depiction-https://karimo299.github.io/repo/sileo/support/",
-      "class": "DepictionTableButtonView"
-    }],
-    "class": "DepictionStackView"
-  }, {
-  "tabname": "Changelog",
-  "views": [{
-    "title": "Version 1.1.1",
-    "useBoldText": true,
-    "useBottomMargin": true,
-    "class": "DepictionSubheaderView"
-  }, {
-    "markdown": "* Fixed Bluetooth not enabling if disable immediatly is toggled",
-    "useSpacing": false,
-    "class": "DepictionMarkdownView"
-  }, {
-    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-01-02</small>",
-    "useRawFormat": true,
-    "class": "DepictionMarkdownView"
-  }, {
-    "title": "Version 1.1.0",
-    "useBoldText": true,
-    "useBottomMargin": true,
-    "class": "DepictionSubheaderView"
-  }, {
-    "markdown": "* Fixed Timer not alway working \n * Better CC Support \n * Timer now runs after a respring \n * Added the ability to choose apps to automatically enable bluetooth \n * Added the ability to enable bluetooth when pluged in",
-    "useSpacing": false,
-    "class": "DepictionMarkdownView"
-  }, {
-    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2018-01-02</small>",
-    "useRawFormat": true,
-    "class": "DepictionMarkdownView"
-  }, {
-    "title": "Version 1.0.0",
-    "useBoldText": true,
-    "useBottomMargin": true,
-    "class": "DepictionSubheaderView"
-  }, {
-    "markdown": "* Inital Release",
-    "useSpacing": false,
-    "class": "DepictionMarkdownView"
-  }, {
-    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2018-12-02</small>",
-    "useRawFormat": true,
-    "class": "DepictionMarkdownView"
-  }],
-  "class": "DepictionStackView"
-}],
-"class": "DepictionTabView"
+	"minVersion": "11.0",
+	"tabs": [{
+		"tabname": "Details",
+		"views": [{
+			"markdown": "Disables Bluetooth after a certain amount of time if there are no devices connected. After enabling the tweak you can set how many minutes after enabling bluetooth, and/or disconnecting a device.Alternatively you have the option to Disable Bluetooth Immediately which disables Bluetooth right after disconnecting a device ",
+			"useSpacing": true,
+			"class": "DepictionMarkdownView"
+		}, {
+			"class": "DepictionSeparatorView"
+		}, {
+			"title": "Latest Version",
+			"class": "DepictionHeaderView"
+		}, {
+			"title": "Version",
+			"text": "1.1.1",
+			"class": "DepictionTableTextView"
+		}, {
+			"title": "Released",
+			"text": "2019-01-2",
+			"class": "DepictionTableTextView"
+		}, {
+			"title": "Price",
+			"text": "Free",
+			"class": "DepictionTableTextView"
+		}, {
+			"spacing": 8,
+			"class": "DepictionSpacerView"
+		}, {
+			"title": "Developer",
+			"text": "Karimo299",
+			"class": "DepictionTableTextView"
+		}, {
+			"title": "Contact Developer",
+			"action": "depiction-https://karimo299.github.io/repo/sileo/support/",
+			"class": "DepictionTableButtonView"
+		}],
+		"class": "DepictionStackView"
+	}, {
+		"tabname": "Changelog",
+		"views": [{
+			"title": "Version 1.1.1",
+			"useBoldText": true,
+			"useBottomMargin": true,
+			"class": "DepictionSubheaderView"
+		}, {
+			"markdown": "* Fixed Bluetooth not enabling if disable immediatly is toggled",
+			"useSpacing": false,
+			"class": "DepictionMarkdownView"
+		}, {
+			"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-01-02</small>",
+			"useRawFormat": true,
+			"class": "DepictionMarkdownView"
+		}, {
+			"title": "Version 1.1.0",
+			"useBoldText": true,
+			"useBottomMargin": true,
+			"class": "DepictionSubheaderView"
+		}, {
+			"markdown": "* Fixed Timer not alway working \n * Better CC Support \n * Timer now runs after a respring \n * Added the ability to choose apps to automatically enable bluetooth \n * Added the ability to enable bluetooth when pluged in",
+			"useSpacing": false,
+			"class": "DepictionMarkdownView"
+		}, {
+			"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2018-01-02</small>",
+			"useRawFormat": true,
+			"class": "DepictionMarkdownView"
+		}, {
+			"title": "Version 1.0.0",
+			"useBoldText": true,
+			"useBottomMargin": true,
+			"class": "DepictionSubheaderView"
+		}, {
+			"markdown": "* Inital Release",
+			"useSpacing": false,
+			"class": "DepictionMarkdownView"
+		}, {
+			"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2018-12-02</small>",
+			"useRawFormat": true,
+			"class": "DepictionMarkdownView"
+		}],
+		"class": "DepictionStackView"
+	}],
+	"class": "DepictionTabView"
 }
