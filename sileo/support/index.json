@@ -11,6 +11,10 @@
     "title": "Contact",
     "class": "DepictionHeaderView"
   }, {
+    "title": "Support Me",
+    "action": "https://paypal.me/Karimo299",
+    "class": "DepictionTableButtonView"
+  }, {
     "title": "Send an Email",
     "action": "mailto:karimo299@yahoo.com",
     "class": "DepictionTableButtonView"
