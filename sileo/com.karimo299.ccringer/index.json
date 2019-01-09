@@ -3,7 +3,8 @@
   "tabs": [{
     "tabname": "Details",
     "views": [{
-"markdown": "A tweak that lets you change the volume sound by tapping on the volume slider in the controlCenter",
+"markdown": "A tweak that lets you change the volume sound by tapping on the volume slider in the controlCenter
+Note: Only works when having 1 volume slider, and you need to respring after changing sliders",
       "useSpacing": true,
       "class": "DepictionMarkdownView"
     }, {
@@ -13,11 +14,11 @@
       "class": "DepictionHeaderView"
     }, {
       "title": "Version",
-      "text": "1.0.2",
+      "text": "1.0.3",
       "class": "DepictionTableTextView"
     }, {
       "title": "Released",
-      "text": "2018-12-19",
+      "text": "2019-01-08",
       "class": "DepictionTableTextView"
     }, {
       "title": "Price",
@@ -39,6 +40,19 @@
   }, {
     "tabname": "Changelog",
     "views": [{
+      "title": "Version 1.0.3",
+      "useBoldText": true,
+      "useBottomMargin": true,
+      "class": "DepictionSubheaderView"
+    }, {
+      "markdown": "* Added support for TinyVolume from CCSupport",
+      "useSpacing": false,
+      "class": "DepictionMarkdownView"
+    }, {
+      "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-01-08</small>",
+      "useRawFormat": true,
+      "class": "DepictionMarkdownView"
+    }, {
       "title": "Version 1.0.2",
       "useBoldText": true,
       "useBottomMargin": true,
@@ -77,7 +91,7 @@
       "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2018-10-14</small>",
       "useRawFormat": true,
       "class": "DepictionMarkdownView"
-    }], 
+    }],
     "class": "DepictionStackView"
   }],
   "class": "DepictionTabView"
