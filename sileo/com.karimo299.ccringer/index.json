@@ -3,7 +3,7 @@
   "tabs": [{
     "tabname": "Details",
     "views": [{
-"markdown": "A tweak that lets you change the volume sound by tapping on the volume slider in the controlCenter \n\nNote: Only works when having 1 volume slider, and you need to respring after changing sliders",
+"markdown": "A tweak that lets you change the volume sound by tapping on the volume slider in the controlCenter. \nNote: Only works when having 1 volume slider, and you need to respring after changing sliders",
       "useSpacing": true,
       "class": "DepictionMarkdownView"
     }, {
