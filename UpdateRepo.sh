@@ -10,7 +10,6 @@ do
   echo Description: `dpkg-deb -f $file Description` >> $repo/Packages
   echo Architecture: `dpkg-deb -f $file Architecture` >> $repo/Packages
   echo Author: `dpkg-deb -f $file Author` >> $repo/Packages
-  echo Author: `dpkg-deb -f $file Author` >> $repo/Packages
   echo Maintainer: `dpkg-deb -f $file Maintainer` >> $repo/Packages
   echo Installed-Size: `dpkg-deb -f $file Installed-Size` >> $repo/Packages
   echo Depends: `dpkg-deb -f $file Depends` >> $repo/Packages
