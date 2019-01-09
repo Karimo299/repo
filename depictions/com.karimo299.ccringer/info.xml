@@ -11,8 +11,7 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>Lets you change the ringer volume by tapping on the volume slider in the controlCenter
-		Note: Only works when having 1 volume slider, and you need to respring after changing sliders</description>
+		<description>Lets you change the ringer volume by tapping on the volume slider in the controlCenter\nNote: Only works when having 1 volume slider, and you need to respring after changing sliders</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
