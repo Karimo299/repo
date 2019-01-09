@@ -1,7 +1,6 @@
  #!/bin/bash
 repo="$( cd "$(dirname "$0")" ; pwd -P )"
 rm -f $repo/Packages
-rm -f $repo/Packages.bz2
 for file in $repo/*/*.deb
 do
   num=$((num + 1))
@@ -30,4 +29,5 @@ do
 done
 
 echo -e "\033[32m"Finished Writing $num Packages "\033[0;39m"
+rm -f $repo/Packages.bz2
 bzip2 $repo/Packages
