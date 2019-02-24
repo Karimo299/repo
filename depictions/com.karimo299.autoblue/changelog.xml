@@ -1,5 +1,16 @@
 <changelog>
 	<changes>
+		<version>2.0.0</version>
+		<change>Supports iOS 10 to 12.1.2</change>
+		<change>Added the ability to set a timer to disable WiFi when its not connected</change>
+		<change>Changed prefs so you can disable Bluetooth immediately by making the Bluetooth timer 0</change>
+		<change>Added "Allow Cellular Changes" which allows Cellular to be enabled/disabled when WiFi is enabled/disabled</change>
+		<change>If the "Enable Bluetooth when plugged" option is enabled Bluetooth won't disable until unplugged</change>
+		<change>Fixed the issue when Bluetooth was disabled even when hotspot is on</change>
+		<change>Added a "Reset All Settings to Default" button</change>
+		<change>Switched to applist, because sparkapplist was inconsistent</change>
+	</changes>
+	<changes>
 		<version>1.1.1</version>
 		<change>Fixed Bluetooth not enabling if disable immediatly is toggled</change>
 	</changes>

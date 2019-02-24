@@ -1,22 +1,29 @@
 <package>
 	<id>com.karimo299.autoblue</id>
 	<name>AutoBlue</name>
-	<version>1.1.1</version>
+	<version>2.0.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>11.4</maxiOS>
+			<maxiOS>12.1.2</maxiOS>
 			<otherVersions>unconfirmed</otherVersions>
 		</firmware>
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>Disables Bluetooth after a certain amount of time if there are no devices connected. After enabling the tweak you can set how many minutes after enabling bluetooth, and/or disconnecting a device. Alternatively you have the option to Disable Bluetooth Immediately which disables Bluetooth right after disconnecting a device</description>
+		<description>Disables Bluetooth and WiFi after a certain amount of time if there are not connected.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<version>1.1.1</version>
-		<change>Fixed Bluetooth not enabling if disable immediatly is toggled</change>
+		<version>2.0.0</version>
+		<change>Supports iOS 10 to 12.1.2</change>
+		<change>Added the ability to set a timer to disable WiFi when its not connected</change>
+		<change>Changed prefs so you can disable Bluetooth immediately by making the Bluetooth timer 0</change>
+		<change>Added "Allow Cellular Changes" which allows Cellular to be enabled/disabled when WiFi is enabled/disabled</change>
+		<change> If the "Enable Bluetooth when plugged" option is enabled Bluetooth won't disable until unplugged</change>
+		<change>Fixed the issue when Bluetooth was disabled even when hotspot is on</change>
+		<change>Added a "Reset All Settings to Default" button</change>
+		<change>Switched to applist, because sparkapplist was inconsistent</change>
 	</changelog>
 	<links></links>
 </package>

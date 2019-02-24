@@ -4,7 +4,7 @@
   "tabs": [{
     "tabname": "Details",
     "views": [{
-      "markdown": "Disables Bluetooth after a certain amount of time if there are no devices connected. After enabling the tweak you can set how many minutes after enabling bluetooth, and/or disconnecting a device. Alternatively you have the option to Disable Bluetooth Immediately which disables Bluetooth right after disconnecting a device",
+      "markdown": "Disables Bluetooth and WiFi after a certain amount of time if there are not connected.",
       "useSpacing": true,
       "class": "DepictionMarkdownView"
     }, {
@@ -14,11 +14,11 @@
       "class": "DepictionHeaderView"
     }, {
       "title": "Version",
-      "text": "1.1.1",
+      "text": "2.0.0",
       "class": "DepictionTableTextView"
     }, {
       "title": "Released",
-      "text": "2019-01-2",
+      "text": "2019-02-23",
       "class": "DepictionTableTextView"
     }, {
       "title": "Price",
@@ -40,6 +40,32 @@
   }, {
   "tabname": "Changelog",
   "views": [{
+    "title": "Version 2.0.0",
+    "useBoldText": true,
+    "useBottomMargin": true,
+    "class": "DepictionSubheaderView"
+  }, {
+      "markdown": "* Supports iOS 10 to 12.1.2 \n * Added the ability to set a timer to disable WiFi when its not connected \n * Changed prefs so you can disable Bluetooth immediately by making the Bluetooth timer 0 \n * Added 'Allow Cellular Changes' which allows Cellular to be enabled/disabled when WiFi is enabled/disabled \n * If the 'Enable Bluetooth when plugged' option is enabled Bluetooth won't disable until unplugged \n * Fixed the issue when Bluetooth was disabled even when hotspot is on \n * Added a 'Reset All Settings to Default' button \n * Switched to applist, because sparkapplist was inconsistent",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+  }, {
+    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-01-02</small>",
+    "useRawFormat": true,
+    "class": "DepictionMarkdownView"
+  }, {
+    "title": "Version 1.1.0",
+    "useBoldText": true,
+    "useBottomMargin": true,
+    "class": "DepictionSubheaderView"
+  }, {
+    "markdown": "* Fixed Timer not alway working \n * Better CC Support \n * Timer now runs after a respring \n * Added the ability to choose apps to automatically enable bluetooth \n * Added the ability to enable bluetooth when pluged in",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+  }, {
+    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2018-01-02</small>",
+    "useRawFormat": true,
+    "class": "DepictionMarkdownView"
+  }, {
     "title": "Version 1.1.1",
     "useBoldText": true,
     "useBottomMargin": true,
