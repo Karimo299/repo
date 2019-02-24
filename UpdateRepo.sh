@@ -1,5 +1,5 @@
  #!/bin/bash
-repo="$( cd "$(dirname "$0")" ; pwd -P )"
+repo="."
 rm -f $repo/Packages
 for file in $repo/*/*.deb
 do
