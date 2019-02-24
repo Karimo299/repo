@@ -1,0 +1,59 @@
+{
+  "minVersion": "12.0",
+	"headerImage": "https://karimo299.github.io/repo/banner/AutoBlue.png?&size=750",
+  "tabs": [{
+    "tabname": "Details",
+    "views": [{
+      "markdown": " Removes the dnd banner on iOS 12",
+      "useSpacing": true,
+      "class": "DepictionMarkdownView"
+    }, {
+      "class": "DepictionSeparatorView"
+    }, {
+      "title": "Latest Version",
+      "class": "DepictionHeaderView"
+    }, {
+      "title": "Version",
+      "text": "1.0.0",
+      "class": "DepictionTableTextView"
+    }, {
+      "title": "Released",
+      "text": "2019-02-24",
+      "class": "DepictionTableTextView"
+    }, {
+      "title": "Price",
+      "text": "Free",
+      "class": "DepictionTableTextView"
+    }, {
+      "spacing": 8,
+      "class": "DepictionSpacerView"
+    }, {
+      "title": "Developer",
+      "text": "Karimo299",
+      "class": "DepictionTableTextView"
+    }, {
+      "title": "Contact Developer",
+      "action": "depiction-https://karimo299.github.io/repo/sileo/support/",
+      "class": "DepictionTableButtonView"
+    }],
+    "class": "DepictionStackView"
+  }, {
+  "tabname": "Changelog",
+  "views": [{
+    "title": "Version 1.0.0",
+    "useBoldText": true,
+    "useBottomMargin": true,
+    "class": "DepictionSubheaderView"
+  }, {
+    "markdown": "* Inital Release",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+  }, {
+    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-02-24</small>",
+    "useRawFormat": true,
+    "class": "DepictionMarkdownView"
+  }],
+  "class": "DepictionStackView"
+}],
+"class": "DepictionTabView"
+}
