@@ -49,7 +49,7 @@
       "useBottomMargin": true,
       "class": "DepictionSubheaderView"
     }, {
-      "markdown": "* Added iOS 12 Support\n* Changed back to Applist",
+      "markdown": "* Added iOS 12 Support\n*Added reset all setting to default button\n* Changed back to Applist",
       "useSpacing": false,
       "class": "DepictionMarkdownView"
     }, {
