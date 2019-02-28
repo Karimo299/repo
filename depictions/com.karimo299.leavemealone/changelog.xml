@@ -1,6 +1,11 @@
 <changelog>
 	<changes>
 		<version>1.0.0</version>
+		<change>Added the DND icon under the date</change>
+		<change>Added support for iOS 11</change>
+	</changes>
+	<changes>
+		<version>1.0.0</version>
 		<change>Initial Release</change>
 	</changes>
 </changelog>
