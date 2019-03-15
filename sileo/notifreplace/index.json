@@ -4,7 +4,7 @@
   "tabs": [{
     "tabname": "Details",
     "views": [{
-      "markdown": " Removes the dnd banner on iOS 12",
+      "markdown": "Replaces specific text in the notification",
       "useSpacing": true,
       "class": "DepictionMarkdownView"
     }, {
