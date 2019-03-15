@@ -1,0 +1,21 @@
+<package>
+	<id>com.karimo299.notifreplace</id>
+	<name>NotifReplace</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<maxiOS>12.1.2</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Description: Replaces specific text in the notification</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links></links>
+</package>
