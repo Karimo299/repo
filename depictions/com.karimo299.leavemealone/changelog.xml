@@ -1,5 +1,12 @@
 <changelog>
 	<changes>
+		<version>2.1.0</version>
+		<change>Fixed 2nd Date overlap</change>
+		<change>Added option to disable the icon</change>
+		<change>Added size and (x, y) sliders</change>
+		<change>Added Support to SimpleLSiOS</change>
+	</changes>
+	<changes>
 		<version>2.0.0</version>
 		<change>Added the DND icon under the date</change>
 		<change>Added support for iOS 11</change>

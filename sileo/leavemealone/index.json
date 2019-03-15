@@ -4,7 +4,7 @@
   "tabs": [{
     "tabname": "Details",
     "views": [{
-      "markdown": " Removes the dnd banner on iOS 12",
+      "markdown": "Adds the dnd icon under the date, and removes the dnd banner on iOS 12",
       "useSpacing": true,
       "class": "DepictionMarkdownView"
     }, {
@@ -14,11 +14,11 @@
       "class": "DepictionHeaderView"
     }, {
       "title": "Version",
-      "text": "2.0.0",
+      "text": "2.1.0",
       "class": "DepictionTableTextView"
     }, {
       "title": "Released",
-      "text": "2019-02-27",
+      "text": "2019-03-15",
       "class": "DepictionTableTextView"
     }, {
       "title": "Price",
@@ -40,6 +40,23 @@
   }, {
   "tabname": "Changelog",
   "views": [{
+    "title": "Version 2.1.0",
+    "useBoldText": true,
+    "useBottomMargin": true,
+    "class": "DepictionSubheaderView"
+  }, {
+    "markdown": "* Fixed 2nd Date overlap\n* Added option to disable the icon \n* Added size and (x, y) sliders \n *Added Support to SimpleLSiOS",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+  }, {
+    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-03-15</small>",
+    "useRawFormat": true,
+    "class": "DepictionMarkdownView"
+  }],
+  "class": "DepictionStackView"
+}],
+"class": "DepictionTabView"
+}, {
     "title": "Version 2.0.0",
     "useBoldText": true,
     "useBottomMargin": true,
