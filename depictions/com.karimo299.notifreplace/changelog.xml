@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1.0.1</version>
+		<change>Fixed only the first option is replaced</change>
+	</changes>
+	<changes>
 		<version>1.0.0</version>
 		<change>Initial Release</change>
 	</changes>

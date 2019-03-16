@@ -1,7 +1,7 @@
 <package>
 	<id>com.karimo299.notifreplace</id>
 	<name>NotifReplace</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -15,7 +15,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fixed only the first option is replaced</change>
 	</changelog>
 	<links></links>
 </package>

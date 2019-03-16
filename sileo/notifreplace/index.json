@@ -40,6 +40,23 @@
   }, {
   "tabname": "Changelog",
   "views": [{
+    "title": "Version 1.0.1",
+    "useBoldText": true,
+    "useBottomMargin": true,
+    "class": "DepictionSubheaderView"
+  }, {
+    "markdown": "* Fixed only the first option is replaced",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+  }, {
+    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-03-15</small>",
+    "useRawFormat": true,
+    "class": "DepictionMarkdownView"
+  }],
+  "class": "DepictionStackView"
+}],
+"class": "DepictionTabView"
+}, {
     "title": "Version 1.0.0",
     "useBoldText": true,
     "useBottomMargin": true,
