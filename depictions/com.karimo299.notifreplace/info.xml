@@ -15,7 +15,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Fixed only the first option is replaced</change>
+		<change>Fixed issue where only the first option is replaced</change>
 	</changelog>
 	<links></links>
 </package>

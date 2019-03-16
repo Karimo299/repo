@@ -45,7 +45,7 @@
     "useBottomMargin": true,
     "class": "DepictionSubheaderView"
   }, {
-    "markdown": "* Fixed only the first option is replaced",
+    "markdown": "* Fixed issue where only the first option is replaced",
     "useSpacing": false,
     "class": "DepictionMarkdownView"
   }, {
