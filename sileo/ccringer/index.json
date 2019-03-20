@@ -13,11 +13,11 @@
       "class": "DepictionHeaderView"
     }, {
       "title": "Version",
-      "text": "1.0.3",
+      "text": "1.1.0",
       "class": "DepictionTableTextView"
     }, {
       "title": "Released",
-      "text": "2019-01-08",
+      "text": "2019-03-19",
       "class": "DepictionTableTextView"
     }, {
       "title": "Price",
@@ -39,6 +39,19 @@
   }, {
     "tabname": "Changelog",
     "views": [{
+      "title": "Version 1.1.0",
+      "useBoldText": true,
+      "useBottomMargin": true,
+      "class": "DepictionSubheaderView"
+    }, {
+      "markdown": "* Added iOS 12 support \n *Rewrote most of the code",
+      "useSpacing": false,
+      "class": "DepictionMarkdownView"
+    }, {
+      "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-01-08</small>",
+      "useRawFormat": true,
+      "class": "DepictionMarkdownView"
+    }, {
       "title": "Version 1.0.3",
       "useBoldText": true,
       "useBottomMargin": true,

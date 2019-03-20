@@ -1,7 +1,7 @@
 <package>
 	<id>com.karimo299.ccringer</id>
 	<name>CCRinger</name>
-	<version>1.0.3</version>
+	<version>1.1.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -15,7 +15,8 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Added support for TinyVolume from CCSupport</change>
+		<change>Added iOS 12 support</change>
+		<change>Rewrote most on the code</change>
 	</changelog>
 	<links></links>
 </package>

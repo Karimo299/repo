@@ -4,7 +4,7 @@
   "tabs": [{
     "tabname": "Details",
     "views": [{
-      "markdown": "Replaces specific text in the notification",
+      "markdown": "Replaces specific text in the notification, and the messages app",
       "useSpacing": true,
       "class": "DepictionMarkdownView"
     }, {
