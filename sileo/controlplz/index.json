@@ -3,7 +3,7 @@
   "tabs": [{
     "tabname": "Details",
     "views": [{
-      "markdown": "Replaces specific text in the notification, and the messages app",
+      "markdown": "Prevents you from using specific apps after a certain time",
       "useSpacing": true,
       "class": "DepictionMarkdownView"
     }, {
@@ -17,7 +17,7 @@
       "class": "DepictionTableTextView"
     }, {
       "title": "Released",
-      "text": "2019-03-15",
+      "text": "2019-03-27",
       "class": "DepictionTableTextView"
     }, {
       "title": "Price",
@@ -39,19 +39,6 @@
   }, {
   "tabname": "Changelog",
   "views": [{
-    "title": "Version 1.0.1",
-    "useBoldText": true,
-    "useBottomMargin": true,
-    "class": "DepictionSubheaderView"
-  }, {
-    "markdown": "* Fixed issue where only the first option is replaced",
-    "useSpacing": false,
-    "class": "DepictionMarkdownView"
-  }, {
-    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-03-15</small>",
-    "useRawFormat": true,
-    "class": "DepictionMarkdownView"
-  }, {
     "title": "Version 1.0.0",
     "useBoldText": true,
     "useBottomMargin": true,
@@ -61,7 +48,7 @@
     "useSpacing": false,
     "class": "DepictionMarkdownView"
   }, {
-    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-03-15</small>",
+    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-03-27</small>",
     "useRawFormat": true,
     "class": "DepictionMarkdownView"
   }],

@@ -1,0 +1,21 @@
+<package>
+	<id>com.karimo299.controlplz</id>
+	<name>ControlPlz</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<maxiOS>12.1.2</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Prevents you from using specific apps after a certain time</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Inital Release</change>
+	</changelog>
+	<links></links>
+</package>
