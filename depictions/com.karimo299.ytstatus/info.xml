@@ -1,0 +1,21 @@
+<package>
+	<id>com.karimo299.ytstatus</id>
+	<name>YTStatus</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<maxiOS>12.1.2</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Adds statusBar to Youtube when the pause screen is on</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Inital Release</change>
+	</changelog>
+	<links></links>
+</package>
