@@ -13,7 +13,7 @@
       "class": "DepictionHeaderView"
     }, {
       "title": "Version",
-      "text": "1.0.0",
+      "text": "1.1.0",
       "class": "DepictionTableTextView"
     }, {
       "title": "Released",
@@ -39,6 +39,19 @@
   }, {
   "tabname": "Changelog",
   "views": [{
+    "title": "Version 1.1.0",
+    "useBoldText": true,
+    "useBottomMargin": true,
+    "class": "DepictionSubheaderView"
+  }, {
+    "markdown": "* Added IPX status bar support \n *Moved everything else down \n* Big thanks to u/iCrazeiOS",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+  }, {
+    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-04-01</small>",
+    "useRawFormat": true,
+    "class": "DepictionMarkdownView"
+  }, {
     "title": "Version 1.0.0",
     "useBoldText": true,
     "useBottomMargin": true,
