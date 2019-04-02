@@ -39,6 +39,19 @@
   }, {
   "tabname": "Changelog",
   "views": [{
+    "title": "Version 1.1.1",
+    "useBoldText": true,
+    "useBottomMargin": true,
+    "class": "DepictionSubheaderView"
+  }, {
+    "markdown": "* Actually fixed IPX status bar issue",
+    "useSpacing": false,
+    "class": "DepictionMarkdownView"
+  }, {
+    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-04-01</small>",
+    "useRawFormat": true,
+    "class": "DepictionMarkdownView"
+  }, {
     "title": "Version 1.1.0",
     "useBoldText": true,
     "useBottomMargin": true,

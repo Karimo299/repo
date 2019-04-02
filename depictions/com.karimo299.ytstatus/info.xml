@@ -15,9 +15,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Added IPX status bar support</change>
-		<change>Moved everything else down</change>
-		<change>Big thanks to u/iCrazeiOS</change>
+		<change>Actually fixed IPX status bar issue</change>
 	</changelog>
 	<links></links>
 </package>
